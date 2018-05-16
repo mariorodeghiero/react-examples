@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+.skills > li {
+  padding: 10px;
+  list-style: none;
+  display: inline-block;
+}
+
+.check-box {
+  padding: 10px;
+  text-align: left;
+}

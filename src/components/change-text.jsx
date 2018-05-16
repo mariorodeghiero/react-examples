@@ -18,6 +18,7 @@ class Changetext extends Component {
     render() {
         return (
             <div>
+                <h2>Change of state</h2>
                 <label>Name:</label>
                 <input
                     type="text"

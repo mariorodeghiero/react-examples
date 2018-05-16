@@ -1,4 +1,13 @@
-.App {
+.container-summary {
+  width: 20%;
+  height: 100vh;
+  float: left;
+  background-color: aqua;
+}
+
+.show {
+  float: right;
+  width: 80%;
   text-align: center;
 }
 

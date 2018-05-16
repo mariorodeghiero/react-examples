@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './App.css';
+import './App.scss';
 import Changetext from './components/change-text';
 import List from './components/array';
 import Checkbox from './components/check-box';

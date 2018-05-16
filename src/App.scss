@@ -2,7 +2,7 @@
   width: 20%;
   height: 100vh;
   float: left;
-  background-color: aqua;
+  background-color: rgb(0, 204, 255);
 }
 
 .show {
@@ -11,10 +11,12 @@
   text-align: center;
 }
 
-.skills > li {
-  padding: 10px;
-  list-style: none;
-  display: inline-block;
+.skills {
+  li {
+    padding: 10px;
+    list-style: none;
+    display: inline-block;
+  }
 }
 
 .check-box {

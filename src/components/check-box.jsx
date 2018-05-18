@@ -7,7 +7,7 @@ class Checkbox extends Component {
     }
     render() {
         return (
-            <div >
+            <div className="show">
                 <form className="check-box">
                     <input type="checkbox" value="html"/>HTML<br/>
                     <input type="checkbox" value="css"/>CSS<br/>

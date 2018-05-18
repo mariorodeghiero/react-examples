@@ -9,8 +9,8 @@ class List extends Component {
         const skills = ["js", "vue.js", "React.js", "Web-pack"]
 
         return (
-            <div >
-                < ul className="skills">
+            <div className="show">
+                <ul className="skills">
                     <h4>Skills:</h4>
                     {skills.map((skill, index) => {
                         return <li key={index}>{skill}</li>

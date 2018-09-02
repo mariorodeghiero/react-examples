@@ -16,7 +16,7 @@ class App extends Component {
         <div>
           <Summary/>
           <Switch>
-            <Route path="/" exact component={Home}/>
+            <Route path="/" component={Home} exact/>
             <Route path="/array" component={List}/>
             <Route path="/checkbox" exact component={Checkbox}/>
             <Route path="/change-text" component={Changetext}/>

@@ -2,19 +2,30 @@
   width: 25%;
   height: 100vh;
   float: left;
-  background-color: rgb(0, 204, 255);
+  background-color: #002b36;
   h1 {
     font-size: 1.2em;
     padding: 10px;
+    color: #aeb1b0;
+    font-weight: 300;
   }
-
   .summary {
     padding-left: 20px;
-    .link-router {
+    a {
       display: flex;
       padding: 5px;
       text-decoration: none;
-      color: #000000;
+      color: #aeb1b0;
+      &:hover {
+        color: #19f9d7e3;
+      }
+    }
+    .active {
+      color: #19f9d7e3;
+    }
+    .components {
+      margin-left: 15px;
+      padding: 10px;
     }
   }
 }

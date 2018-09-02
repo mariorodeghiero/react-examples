@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 
 class Summary extends Component {
     constructor(props) {
@@ -11,9 +11,12 @@ class Summary extends Component {
             <div className="container-summary">
                 <h1>Summary</h1>
                 <div className="summary">
-                    <Link className="link-router" to="/">Home</Link>
-                    <Link className="link-router" to="/array">Array</Link>
-                    <Link className="link-router" to="/change-text">Change text</Link>
+                    <NavLink to="/">Get started</NavLink>
+
+                    <div className="components">
+                        <NavLink to="/array" activeClassName="active">Array</NavLink>
+                        <NavLink to="/change-text" activeClassName="active">Change text</NavLink>
+                    </div>
                 </div>
             </div>
         );
